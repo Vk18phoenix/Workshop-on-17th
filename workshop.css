@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    background: url("./peakpx.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.nav{
+    margin-top: 27px; 
+}
+.head{
+  position: sticky;
+  top: 0;
+  z-index: 999; /* Adjust z-index if needed */
+}
+.header2{
+    background: linear-gradient(to right, darkturquoise, orangered );
+    color: white;
+}
+header,
+.header2 {
+  position: sticky;
+  top: 0;
+  z-index: 999; /* Adjust z-index if needed */
+}
+
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+#sp1, #sp2{
+    font-weight: 700;
+}
+#sp3{
+    font-weight: 600;
+    text-decoration: underline;
+}
+#sp4{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#sp5{
+    font-weight: 600;
+}
+#sp6{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+img{
+    width: 100vw;
+    height: 200px;
+}
+.img1{
+    border: 1px solid black;
+    object-fit: contain;
+}
+.img2{
+    border: 1px solid black;
+    object-fit: cover;
+}
+.img3{
+    border: 1px solid black;
+    object-fit: fill;
+}
+.footer{
+    background-color: forestgreen;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
